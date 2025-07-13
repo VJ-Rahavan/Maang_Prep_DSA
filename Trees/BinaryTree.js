@@ -84,3 +84,4 @@ tree.preorder();
 
 console.log('Postorder:');
 tree.postorder();
+console.log('Check');
