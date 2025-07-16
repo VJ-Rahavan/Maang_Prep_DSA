@@ -57,3 +57,24 @@ dfsInOrder(root); // Output: 4 2 5 1 6 3 7
 
 console.log('Post-order DFS:');
 dfsPostOrder(root); // Output: 4 5 2 6 7 3 1
+
+// const dfsPreOrder = (root) => {
+//     if(!root.value)
+//         return
+//     dfsInOrder(root.left);
+//     console.log(root.value)
+//     dfsInOrder(root.right)
+// }
+
+//             1
+//     2               3
+// 4       5       6       7
+
+//     1
+
+//     2           3
+// 4       5   6       7
+//     4           6
+//     5           7
+
+// 1245367
